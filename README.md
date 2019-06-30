@@ -1,8 +1,8 @@
-# Custom Resource Provividers Specification
+# Custom Resource Providers Specification
 This is a draft version of this document, readers should expect changes. Feedback is very welcome!
 
 ## Abstract
-To fill gap in CLoudFormation Coverage, or to extend CloudFormation to support non-AWS resources, people have been using Custom Resources. A lot of the code implementing these resources has been released as Open Source software, however every organization seems to use their own way of writing, building and deploying their code. This document tries to describe a common interface to make it easier to re-use existing code.
+To fill gap in CloudFormation Coverage, or to extend CloudFormation to support non-AWS resources, people have been using Custom Resources. A lot of the code implementing these resources has been released as Open Source software, however every organization seems to use their own way of writing, building and deploying their code. This document tries to describe a common interface to make it easier to re-use existing code.
 
 ## 1. Definitions
 ### 1.1 Custom Resource
@@ -256,7 +256,9 @@ This section should contain at least one example
 > ```
 
 ## 6. To do
+
 - Currently this document does not say anything about the value of the Custom Resource type.
+- There should be an example of how to actually use these templates as a consumer.
 
 
 [1]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html
