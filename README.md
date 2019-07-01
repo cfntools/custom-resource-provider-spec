@@ -21,7 +21,7 @@ A consumer in the context of this document is the organization or person that wa
 The intent behind this speficiations is to have a way to follow the following principles
 
 ### 2.1 Reusability
-Custom Resource Providers should not be tied to a particalur environment. If a provider has external dependencies they should be explicit defined when the provider is set up by the consumer.
+Custom Resource Providers should not be tied to a particalur environment. If a provider has external dependencies they should be explicit defined when the provider is set up by the consumer. They should also make it possible for the consumer to adapt it to the requirements of their environment. This can be the need for more or less logging, integration with a KMS via a Consumer Managed CMK or different deployment strategies.
 
 ### 2.2 Least Privilige
 Custom Resource Providers are typically deployed into the AWS environments of the consumers. They should take a least privilege approach to any permissions they need. Consumers, having insights in their own environments, should be able to scope down permissions even further.
