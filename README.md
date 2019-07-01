@@ -256,11 +256,18 @@ This section should contain at least one example
 >     SomeProperty: 42
 > ```
 
-## 6. To do
+## 6. Usefull links
+Writing your own Provider:
+
+- [A SAM cookiecutter template for python projects](https://github.com/cfntools/cookiecutter-custom-resource-provider-python)
+- [Best Practices for writing an Lambda-backed Custom Resource](https://aws.amazon.com/premiumsupport/knowledge-center/best-practices-custom-cf-lambda/)
+- [Python helper library for Custom Resources](https://github.com/aws-cloudformation/custom-resource-helper)
+- [Another python helper library for Custom Resources)](https://github.com/iRobotCorporation/cfn-custom-resource)
+
+## 7. To do
 
 - Currently this document does not say anything about the value of the Custom Resource type.
 - There should be an example of how to actually use these templates as a consumer.
-
 
 [1]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/resources-section-structure.html
 [2]: https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-resource-cfn-customresource.html
