@@ -44,6 +44,7 @@ The CloudFormation template:
 - MUST follow the guidlines for Parameters and Outputs in this section
 - SHOULD create LogGroups if Resources are used that will log to CloudWatch Logs.
 - SHOULD only use resources supported by the AWS Serverless Application Repository
+- SHOULD use CloudFomation Parameters to define external inputs and dependencies.
 - SHOULD NOT use any Custom Resources
 - SHOULD NOT hard code any values that will make it impossible to deploy the same template multiple times (either in the same region or multiple regions).
 
